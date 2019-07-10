@@ -1,0 +1,4 @@
+http://api.sms.cn/sms/?ac=send
+				&uid=qq913635911&pwd=dadc3d233159c8d878d033dafe922f24
+				&template=100006&mobile=15089985569
+				&content={"code":"2690"}

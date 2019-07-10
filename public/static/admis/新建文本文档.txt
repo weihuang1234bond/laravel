@@ -1,0 +1,2 @@
+先继承模板，换index的内容,然后修改样式
+,static/admis

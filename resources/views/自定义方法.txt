@@ -1,0 +1,21 @@
+debufar 工具，测试
+
+在composer.josn添加信息
+autoload{
+	添加 'files':[
+		方法地址
+]
+}
+
+添加后 更新 composer dump-autoload
+
+自定义类
+
+同样
+autoload{
+	classmap[
+		这里加入类路径
+	]
+}
+
+更新

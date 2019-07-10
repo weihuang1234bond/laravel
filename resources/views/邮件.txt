@@ -1,0 +1,26 @@
+拿到邮箱的授权码
+	stmp协议
+.env 
+MAIL_DRIVER=stmp
+~HOST=stmp.163.com
+PORT=25
+USERNAME=
+PASSWORD=授权码
+
+
+config/mail.php
+	form=>[
+		'adress'=>('MAIL_USERNAME','发送件人名'),
+		'name'=>env('MAIL_FORM_NAME',)
+	]
+
+USE MAIL 内置类，文档里的都是狗屎 很难看
+function($MESSAGE){
+	$MESSAGE->subject('主题');
+	$message->to('邮箱');
+
+}
+
+在函数里想要调用函数外的变量 用use
+
+mail::send('模板',数据，函数)
